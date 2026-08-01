@@ -1,8 +1,28 @@
 aid: salary-hero-pte-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salary-hero-pte-ltd.png
 name: SALARY HERO PTE. LTD
-description: SALARY HERO PTE. LTD is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Salary Hero is a Singapore-headquartered financial wellness and earned wage
+  access (EWA) platform offered to employees through their employers. Its
+  products include Salary on Demand (accessing earned wages before payday),
+  budgeting and spending-tracking tools, savings accounts (a partnership with
+  Dime offering 3% interest), and financial-literacy education covering debt
+  management and investing. The service is delivered via iOS and Android apps
+  and is provisioned by employers, integrating with existing payroll and HR
+  systems. Salary Hero is a portfolio company of 500 Global. This profile was
+  enriched by the API Evangelist pipeline; no public developer API, portal, or
+  documentation surface was found.
 url: https://raw.githubusercontent.com/api-evangelist/salary-hero-pte-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Earned Wage Access
+- Financial Wellness
+- Payroll
+- Human Resources
+- Employee Benefits
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +51,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://salary-hero.com
+  url: https://www.salary-hero.com
+- type: Blog
+  url: https://www.salary-hero.com/article
+- type: Support
+  url: https://www.salary-hero.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.salary-hero.com/privacy-policy
+- type: DomainSecurity
+  url: security/salary-hero-pte-ltd-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
