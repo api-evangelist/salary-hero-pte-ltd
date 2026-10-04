@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salary-hero-pte-ltd.png
-name: SALARY HERO PTE. LTD
+name: SALARY HERO
 description: >-
   Salary Hero is a Singapore-headquartered financial wellness and earned wage
   access (EWA) platform offered to employees through their employers. Its
@@ -46,7 +46,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Earned Wage Access
 - Financial Wellness
@@ -64,6 +64,7 @@ tags_raw:
 - Human Resources
 - Employee Benefits
 - Singapore
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -86,3 +87,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: SALARY HERO PTE. LTD
